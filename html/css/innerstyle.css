@@ -1,0 +1,170 @@
+html{
+    display: block;
+}
+
+/*------------------------------------------------------------------------------*/
+
+body,div,p{
+    font: 400 14px/22px; 
+    font-family:'Quicksand',sans-serif;
+}
+
+#status{
+    color: #777;
+}
+
+/*------------------------------------------------------------------------------*/
+
+body{
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------*/
+
+#loading{
+    position: ;
+    justify-content: center;
+    width: fixed;
+    height: 100;
+    background: transparent
+    url('./loading.gif')
+    no-repeat center;
+    z-index: 99999;
+}
+
+#loader{
+    border: none;
+    position: fixed;
+    height: 50;
+    width: fixed;
+    background: transparent
+    no-repeat center;
+    z-index: 99999;
+}
+
+
+h2{
+    display: none;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/*------------------------------------------------------------------------------*/
+
+#upload{
+    display:none;
+}
+
+/*------------------------------------------------------------------------------*/
+
+table{
+    background-color: transparent;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 3px;
+    border-color: rgb(56, 56, 66);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+tbody{
+    display:table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+
+td{
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: center;
+    padding: 10ox 0px 0px 10px;
+}
+
+
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    background-color: #bdbdbd;
+}
+
+/*------------------------------------------------------------------------------*/
+
+canvas,img,video{
+    border: 1px solid black;
+}
+
+canvas{
+    aspect-ratio: auto 512/512;
+    max-height: 300px;
+    max-width: 300px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+img{
+    aspect-ratio: auto ;
+    max-height: 300px;
+    max-width: 300px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+video{
+    aspect-ratio: auto ;
+    max-height: 250px;
+    max-width: 250px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+/*------------------------------------------------------------------------------*/
+input[type=range i] {
+    appearance: auto;
+    cursor: default;
+    color: -internal-light-dark(rgb(16, 16, 16), rgb(255, 255, 255));
+    padding: initial;
+    border: initial;
+    margin: 2px;
+}
+
+input{
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: white;
+    margin: ;
+    padding:  ;
+    border-width: ;
+    border-style: inset;
+    border-color: ;
+    border-image: ;
+    font-family: inherit;
+    font-weight: bold;
+    border-radius: 2px;
+}
